@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.1" pages="2">
   <diagram name="Page-1" id="O9yYPY4qAZch_6_0QE-m">
     <mxGraphModel dx="1363" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-20" target="PSvTm_7GEx3-Y-DfHrny-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-20" value="Declare variables&lt;div&gt;float LetterHeightScaled&lt;/div&gt;&lt;div&gt;Char CurrentWord&lt;/div&gt;&lt;div&gt;float CurrentWordWidthmm&lt;/div&gt;&lt;div&gt;float xCoordinate&lt;/div&gt;&lt;div&gt;float yCoordinate&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-20" value="Declare variables&lt;div&gt;double LetterHeightScaled&lt;/div&gt;&lt;div&gt;double CurrentAvailableLineSpace&lt;/div&gt;&lt;div&gt;Char CurrentWord&lt;/div&gt;&lt;div&gt;float CurrentWordWidthmm&lt;/div&gt;&lt;div&gt;float xCoordinate&lt;/div&gt;&lt;div&gt;float yCoordinate&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="160" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-22">
@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-22" value="Declare functions&lt;div&gt;&amp;nbsp;float GetHeight(void)&lt;/div&gt;&lt;div&gt;char GetText(void)&lt;br&gt;&lt;div&gt;ProcessText&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shape=parallelogram;backgroundOutline=1;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="310" width="210" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-27" target="PSvTm_7GEx3-Y-DfHrny-28">
           <mxGeometry relative="1" as="geometry" />
@@ -44,24 +44,6 @@
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-30" value="GetText" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-32" value="GetText" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="210" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-33" value="input file name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-34" target="PSvTm_7GEx3-Y-DfHrny-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="480" />
-              <mxPoint x="400" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-34" value="sensible ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-36" target="PSvTm_7GEx3-Y-DfHrny-37">
           <mxGeometry relative="1" as="geometry" />
@@ -103,6 +85,43 @@
         </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-46" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rnZnNiLrRkfmeJ1iTpo8" name="Page-2">
+    <mxGraphModel dx="954" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-1" value="GetText(void)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nWOsjJTy5GrBwk9Dym0t-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-2" value="input file name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.567;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nWOsjJTy5GrBwk9Dym0t-1" target="nWOsjJTy5GrBwk9Dym0t-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="sourcePoint" />
+            <mxPoint x="560" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-8" value="open file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nWOsjJTy5GrBwk9Dym0t-11" value="ProcessWord" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="100" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="a2E5ijAHfJek6qGxfJAZ-1" value="read first instruction and create 3 dimensional struct of int with number of rows dependent on last number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
