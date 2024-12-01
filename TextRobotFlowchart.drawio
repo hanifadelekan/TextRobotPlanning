@@ -16,60 +16,93 @@
         <mxCell id="RyT3h0q8uJ0lcJPvg5cY-2" value="Main()" style="rounded=0;whiteSpace=wrap;html=1;shape=process;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RyT3h0q8uJ0lcJPvg5cY-6" target="PSvTm_7GEx3-Y-DfHrny-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RyT3h0q8uJ0lcJPvg5cY-6" value="GetHeight" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-1" target="PSvTm_7GEx3-Y-DfHrny-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-1" value="GetTextFileName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-4" value="loop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="585" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-6" target="PSvTm_7GEx3-Y-DfHrny-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-6" target="PSvTm_7GEx3-Y-DfHrny-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-6" value="TextProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="670" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-7" target="PSvTm_7GEx3-Y-DfHrny-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-7" value="last word" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="800" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-11" target="PSvTm_7GEx3-Y-DfHrny-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-11" value="arduino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="670" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-12" value="robot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="670" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="PSvTm_7GEx3-Y-DfHrny-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-20" target="PSvTm_7GEx3-Y-DfHrny-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-20" value="Declare variables&lt;div&gt;int LetterHeight&lt;/div&gt;&lt;div&gt;Char CurrentWord&lt;/div&gt;&lt;div&gt;float CurrentWordWidthmm&lt;/div&gt;&lt;div&gt;float xCoordinate&lt;/div&gt;&lt;div&gt;float yCoordinate&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-20" value="Declare variables&lt;div&gt;float LetterHeightScaled&lt;/div&gt;&lt;div&gt;Char CurrentWord&lt;/div&gt;&lt;div&gt;float CurrentWordWidthmm&lt;/div&gt;&lt;div&gt;float xCoordinate&lt;/div&gt;&lt;div&gt;float yCoordinate&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="160" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="PSvTm_7GEx3-Y-DfHrny-22" value="Declare functions&lt;div&gt;ProcessText&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shape=parallelogram;backgroundOutline=1;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-22" value="Declare functions&lt;div&gt;&amp;nbsp;float GetHeight(void)&lt;/div&gt;&lt;div&gt;char GetText(void)&lt;br&gt;&lt;div&gt;ProcessText&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shape=parallelogram;backgroundOutline=1;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-27" target="PSvTm_7GEx3-Y-DfHrny-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-27" value="GetHeight()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-28" target="PSvTm_7GEx3-Y-DfHrny-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-28" value="Scale the height&lt;div&gt;save to LetterHeightScaled&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-30" value="GetText" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-32" value="GetText" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-33" value="input file name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-34" target="PSvTm_7GEx3-Y-DfHrny-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="480" />
+              <mxPoint x="400" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-34" value="sensible ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-36" target="PSvTm_7GEx3-Y-DfHrny-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-36" value="read word from file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-37" target="PSvTm_7GEx3-Y-DfHrny-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-37" value="ProcessText" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-38" target="PSvTm_7GEx3-Y-DfHrny-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="930" />
+              <mxPoint x="330" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-38" target="PSvTm_7GEx3-Y-DfHrny-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-38" value="any more words?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-42" target="PSvTm_7GEx3-Y-DfHrny-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-42" value="send instructions" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PSvTm_7GEx3-Y-DfHrny-45" target="PSvTm_7GEx3-Y-DfHrny-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-45" value="go to 0,0" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSvTm_7GEx3-Y-DfHrny-46" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
